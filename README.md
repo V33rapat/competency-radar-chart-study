@@ -10,10 +10,12 @@
 - เตรียมความพร้อมสำหรับนำไปใช้ในระบบจริง
 
 ## Current Status
-- [x] สร้าง Radar Chart พื้นฐาน
+- [x] สร้างโปรเจค React + Vite
+- [ ] สร้าง Radar Chart พื้นฐาน
 - [ ] รองรับหลาย series
 - [ ] เชื่อมข้อมูลจาก backend (future work)
 
 ## Tech Stack
 - React
+- Vite
 - MUI X Charts
