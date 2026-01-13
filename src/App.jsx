@@ -1,10 +1,12 @@
 import CompetencyRadar from './components/CompetencyRadar'
+import './App.css' 
+import Navbar from './components/Navbar'
 
 function App() {
 
   return (
     <div className="App">
-      <h1>Competency Radar Chart Study</h1>
+      <Navbar />
       <CompetencyRadar />
     </div>
   )
