@@ -9,3 +9,20 @@ main{
   margin: auto;
   padding: 10px;
 }
+
+.dashboard-user{ 
+  display: flex;
+  margin-top: 2rem;
+  margin-left: 19rem;
+  margin-right: 19rem;
+}
+
+/* ซ้าย */
+.dashboard-user > :first-child {
+  flex: 1; /* กินพื้นที่น้อยกว่า */
+}
+
+/* ขวา */
+.dashboard-user > :last-child {
+  flex: 2; /* Radar ใหญ่กว่า */
+}

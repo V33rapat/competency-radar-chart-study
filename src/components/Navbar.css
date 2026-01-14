@@ -47,7 +47,6 @@ body {
 
 /* Add some placeholder content to demonstrate scrolling */
 body::after {
-    content: 'Scroll down to see the navbar is not sticky by default.';
     display: block;
     text-align: center;
     height: 200vh;

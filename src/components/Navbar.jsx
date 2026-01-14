@@ -9,7 +9,6 @@ export default function Navbar() {
             <header class="navbar" role="banner">
                 <div class="navbar__container">
                     <a href="#" class="navbar__brand">BrandName</a>
-                    
                     {/*
                         This button controls the mobile navigation menu.
                         - `aria-label` describes the button to screen readers.
