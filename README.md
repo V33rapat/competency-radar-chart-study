@@ -11,7 +11,13 @@
 
 ## Current Status
 - [x] สร้างโปรเจค React + Vite
-- [ ] สร้าง Radar Chart พื้นฐาน
+- [X] สร้าง Radar Chart พื้นฐาน
+- [x] สร้าง Dashboard แสดงข้อมูลผู้ใช้
+- [ ] ออกแบบหน้า Home
+- [ ] ออกแบบหน้า Activity
+- [ ] ออกแบบหน้า Login
+- [ ] ออกแบบหน้า Register
+- [ ] ทำเป็น Static เว็บ
 - [ ] รองรับหลาย series
 - [ ] เชื่อมข้อมูลจาก backend (future work)
 
