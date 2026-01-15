@@ -5,14 +5,14 @@ export default function Infouser() {
         nameTH: "วีรภัทร วิเศษสมบัติ",
         nameENG: "Veerapat Visaidsombat",
         studentid: "653380251-3",
-        facultyTH: "คณะวิศวกรรมศาสตร์",
-        facultyENG: "Faculty of Engineering",
-        departmentTH: "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+        facultyTH: "วิทยาลัยการคอมพิวเตอร์",
+        facultyENG: "College of Computing",
+        departmentTH: "วิทยาการคอมพิวเตอร์",
         departmentENG: "Department of Computer Engineering"
     };
     return (
         <div className="infouser">
-            <h1>My Account</h1>
+            <h1>ข้อมูลนักศึกษา</h1>
             <p>ชื่อ : {user.nameTH}</p>
             <p>ชื่อ (อังกฤษ) : {user.nameENG}</p>
             <p>รหัสนักศึกษา : {user.studentid}</p>

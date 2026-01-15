@@ -6,13 +6,15 @@ import Infouser from './components/Infouser'
 function App() {
 
   return (
-    <div className="App">
+    <>
       <Navbar />
-      <div className="dashboard-user">
-        <Infouser />
-        <CompetencyRadar />
+      <div className="App">
+        <div className="dashboard-user">
+          <Infouser />
+          <CompetencyRadar />
+        </div>
       </div>
-    </div>
+    </>
   )
 }
 

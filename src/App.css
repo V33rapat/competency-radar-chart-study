@@ -1,5 +1,7 @@
 .App{
   padding: 0px 10px;
+  background-color: #F2F4F7;
+  font-family: 'Prompt', sans-serif;
 }
 
 main{
@@ -12,17 +14,25 @@ main{
 
 .dashboard-user{ 
   display: flex;
-  margin-top: 2rem;
-  margin-left: 19rem;
-  margin-right: 19rem;
+  gap : 5rem; /* ช่องว่างระหว่าง Components */
+  margin-right: 16rem;
+  margin-left: 16rem;
+  padding: 2rem 0rem;
+  
 }
 
 /* ซ้าย */
 .dashboard-user > :first-child {
   flex: 1; /* กินพื้นที่น้อยกว่า */
+  padding-left: 2rem;
+  background-color: white;
+  border-radius: 20px;
 }
 
 /* ขวา */
 .dashboard-user > :last-child {
-  flex: 2; /* Radar ใหญ่กว่า */
+  min-width: 0;
+  background-color: white;
+  border-radius: 20px;
+  padding: 1rem;
 }

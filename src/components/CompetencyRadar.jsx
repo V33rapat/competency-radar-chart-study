@@ -4,10 +4,10 @@ export default function CompetencyRadar() {
     return (
         <RadarChart
             height = {300}
-            series = {[{ label : 'Competency', data: [50, 70, 80, 60, 90, 75] }]}
+            series = {[{ label : 'ความสามารถ', data: [50, 70, 80, 60, 90, 75] }]}
             radar = {{
                 max : 100,
-                metrics : ['Communication', 'Teamwork', 'Problem Solving', 'Adaptability', 'Leadership', 'Creativity' ],
+                metrics : ['การสื่อสาร', 'การทำงานเป็นทีม', 'การแก้ปัญหา', 'ความยืดหยุ่น', 'การนำ', 'ความคิดสร้างสรรค์'],
             }}
         />
     );
